@@ -3,4 +3,4 @@ alfabeto = "abcdefghijklmnopqrstuvwxyz"
 
 for letra in alfabeto:
     if letra != "q" and letra != "e":
-        print(letra, end="")
+        print("{}".format(letra), end="")
